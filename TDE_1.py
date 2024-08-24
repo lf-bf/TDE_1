@@ -46,7 +46,7 @@ def operadores(letra, conjuntos):
 
 
 
-with open("Exemplo_2.txt", "r") as file:
+with open("Exemplo_1.txt", "r") as file:
     while True:
         num_operacoes = int(file.readline().strip())
         for _ in range(num_operacoes):
